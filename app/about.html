@@ -1,0 +1,103 @@
+<!doctype html>
+<html class="no-js" lang="EN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>WKND Pants | About</title>
+    <meta property="og:site_name" content="Weekend Pants Unlimited" />
+    <meta property="og:description" content="The Weekend is Calling" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/modules.css">
+    <link rel="stylesheet" href="css/states.css">
+    <script src="js/modernizr.custom.78291.js"></script>
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <header>
+        <!--
+<a href="index.html">
+    <img class="wknd_logo" src="images/wkndpantslogo.png" />
+</a>
+-->
+        <h1 class="logo_text">Weekend Pants Unlimited</h1>
+        <nav>
+            <ol>
+                <li class="nav_links">
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li class="nav_links">
+                    <a href="about.html">Get a Quote</a>
+                </li>
+                <!--
+<li class="nav_links">
+    <a href="order_form.html">Cart</a>
+</li>
+-->
+            </ol>
+        </nav>
+    </header>
+    <main>
+        <!--
+<section>
+    <h1>Bee Snappy!</h1>
+    <p class="p_about">
+        The Photo Bee is a luxury photo booth rental service. We provide elegenat photo booths for any occasion! Weekend Pants Unlimited is the collective effort of a group of designers, engineers, photographers, and scientists in Detroit and Seattle coming together to create something beautiful. We believe in community, we believe in beauty, we believe in humans. Our designs are run in small batches so availability is limited, but as soon as one design sells out we'll have it replaced with another. Keep an eye out for what's fresh and new!
+    </p>
+</section>
+-->
+        <section class="contact_form_section">
+            <form action="contact_form.php" method="post" name="process_contactform" class="contact about_form" role="form">
+                <fieldset class="contact_fieldset">
+                    <legend>Contact Us</legend>
+                    <p class="p_about_contact">Please fill out the form below and we'll get back to you as soon as possible, thanks!</p>
+                    <ul>
+                        <li class="contact_li">
+                            <label for="first_name">First Name:</label>
+                            <input id="first_name" role="textbox" aria-required="true" class="input_about stored" name="contactpagefirstname" type="text" placeholder="First" title="First Name" />
+                        </li>
+                        <li class="contact_li">
+                            <label for="last_name">Last Name:</label>
+                            <input id="last_name" name="contactpagelastname" role="textbox" aria-required="true" class="input_about stored" type="text" placeholder="Last" title="Last Name" required />
+                        </li>
+                        <li class="contact_li">
+                            <label for="contact_email">Email Address:</label>
+                            <input id="contact_email" role="textbox" aria-required="true" class="input_about stored" type="email" name="contactpageemail" title="email address" placeholder="Email" required />
+                        </li>
+                        <li id="contact_li">
+                            <label for="contact_subject">Subject:</label>
+                            <textarea id="contact_subject" role="textbox" rows=1 cols=110 aria-required="true" type="textbox" name="contactpagesubject" class="input_about stored" placeholder="Subject" required></textarea>
+                        </li>
+                        <li id="contact_li">
+                            <label for="contact_message">Message:</label>
+                            <textarea id="contact_message" role="textbox" rows=5 cols=110 aria-required="true" type="textbox" class="input_about stored" name="contactpagemessage" placeholder="Message" required></textarea>
+                        </li>
+                    </ul>
+                    <input type="submit" name="submit" id="submit" value="Submit" onclick="clearData()" />
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footer_social_icons">
+            <a href="https://twitter.com/">
+                <span class="icon-twitter"></span>
+            </a>
+        </div>
+        <h3><strong>Seattle </strong> ♥ <strong> Bellevue</strong></h3>
+        <p class="footer_text">Copyright &copy; 2016 The Photo Bee. All Rights Reserved.</p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/jquery-2.1.4.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
